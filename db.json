@@ -1,5 +1,45 @@
 {
-  "users": [
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1",
+      "content": "This is the content of Post 1.",
+      "authorId": 1
+    },
+    {
+      "id": 2,
+      "title": "Post 2",
+      "content": "Content of Post 2 goes here.",
+      "authorId": 2
+    },
+    {
+      "id": 3,
+      "title": "Post 3",
+      "content": "Post 3 contains some data.",
+      "authorId": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "text": "Comment 1 on Post 1.",
+      "userId": 4
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "text": "Another comment on Post 1.",
+      "userId": 5
+    },
+    {
+      "id": 3,
+      "postId": 2,
+      "text": "Comment on Post 2.",
+      "userId": 6
+    }
+  ],
+  "profiles": [
     {
       "id": 1,
       "name": "John Doe",
@@ -17,6 +57,24 @@
       "name": "Bob Johnson",
       "email": "bob@example.com",
       "age": 35
+    },
+    {
+      "id": 4,
+      "name": "Alice Brown",
+      "email": "alice@example.com",
+      "age": 28
+    },
+    {
+      "id": 5,
+      "name": "Eve White",
+      "email": "eve@example.com",
+      "age": 32
+    },
+    {
+      "id": 6,
+      "name": "Charlie Green",
+      "email": "charlie@example.com",
+      "age": 29
     }
   ]
 }
